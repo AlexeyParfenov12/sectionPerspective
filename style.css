@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 50%);
+}
+
+.section {
+    height: 100px;
+    width: 160px;
+    background-color: rgb(179, 179, 179);
+    transform: matrix3d(0, 1, 0, 0, 
+                        1, 0, 0, 0, 
+                        0, 0, 1, 0, 
+                        0, 0, 0, 1);
+}
+
